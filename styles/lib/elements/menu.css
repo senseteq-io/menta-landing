@@ -1,5 +1,5 @@
 .menu-wrapper {
-  background: var(--primary-1);
+  background: var(--menu-wrapper-background-color);
   position: absolute;
   top: 0;
   left: 0;

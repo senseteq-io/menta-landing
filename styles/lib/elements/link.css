@@ -1,7 +1,7 @@
 /* Link */
 .link {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: var(--font-size-body);
-  line-height: var(--line-height-body);
+  text-decoration: var(--link-default-text-decoration);
+  font-weight: var(--link-default-font-weight);
+  font-size: var(--link-default-font-size);
+  line-height: var(--link-default-line-height);
 }

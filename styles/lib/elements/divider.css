@@ -1,4 +1,4 @@
 /* Divider */
 .divider {
-  border-bottom: 1px solid #DEDAF5;
+  border-bottom: var(--divider-default-border-bottom);
 }

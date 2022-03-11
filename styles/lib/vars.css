@@ -1,4 +1,5 @@
 :root {
+  /* Color scheme */
   --primary-1: #07272d;
   --primary-2: #e3dff8;
   --primary-3: #9097fd;
@@ -8,6 +9,7 @@
   --secondary-1: #f7f7a0;
   --secondary-2: #ef8e85;
 
+  /* Typography */
   --font-size-h1: 44px;
   --font-size-h2: 40px;
   --font-size-body: 20px;
@@ -15,4 +17,48 @@
   --line-height-h1: 60px;
   --line-height-h2: 50px;
   --line-height-body: 26px;
+
+  /* ELEMENTS */
+  /* BUTTON */
+  /* Button default */
+  --btn-default-vertical-padding: 15px;
+  --btn-default-horizontal-padding: 24px;
+  --btn-default-font-size: var(--font-size-body);
+  --btn-default-line-height: var(--line-height-body);
+  --btn-default-font-weight: 700;
+
+  /* Button wide */
+  --btn-wide-padding-left: 65px;
+  --btn-wide-padding-right: 65px;
+
+  /* Button outlined */
+  --btn-outlined-border-width: 2px;
+
+  /* Button rounded */
+  --btn-rounded-border-radius: 28px;
+
+  /* Button white */
+  --btn-white-background-color: #fff;
+  --btn-white-color: var(--primary-1);
+
+  /* Button white outlined */
+  --btn-white-outlined-border-color: #fff;
+  --btn-white-outlined-color: #fff;
+  --btn-white-outlined-background-color: transparent;
+
+  /* Button secondary */
+  --btn-secondary-background-color: var(--secondary-1);
+  --btn-secondary-color: var(--primary-1);
+
+  /* DIVIDER */
+  --divider-default-border-bottom: 1px solid #DEDAF5;
+
+  /* LINK */
+  --link-default-text-decoration: none;
+  --link-default-font-weight: 700;
+  --link-default-font-size: var(--font-size-body);
+  --link-default-line-height: var(--font-line-height);
+
+  /* MENU */
+  --menu-wrapper-background-color: var(--primary-1);
 }

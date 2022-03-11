@@ -1,0 +1,31 @@
+/* Custom elements */
+.cover {
+  width: 100%;
+  height: 420px;
+  border-top-left-radius: 140px;
+  border-top-right-radius: 140px;
+  position: relative;
+}
+.cover-image-primary {
+  background-image: url('/menta-landing-cover.png');
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.cover-btn-top-center {
+  width: 200px;
+  position: absolute;
+  top: -28px;
+  left: calc(50% - 100px);
+}
+
+@media (max-width: 992px) {
+  .cover {
+    width: 100%;
+    height: 210px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    position: relative;
+  }
+}

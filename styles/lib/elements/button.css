@@ -1,0 +1,43 @@
+/* Button */
+.btn {
+  padding: 15px 24px;
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn-wide {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.btn.btn-outlined {
+  border-width: 2px;
+  border-style: solid;
+}
+
+.btn.btn-rounded {
+  border-radius: 28px;
+}
+
+.btn.btn-white {
+  background: #fff;
+  color: var(--primary-1);
+}
+
+.btn.btn-secondary {
+  background: var(--secondary-1);
+  color: var(--primary-1);
+}
+
+.btn.btn-outlined.btn-white {
+  border-color: #fff;
+  color: #fff;
+  background: transparent;
+}
+
+.btn.btn-block {
+  width: 100%;
+}

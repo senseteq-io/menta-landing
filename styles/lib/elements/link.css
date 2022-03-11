@@ -1,0 +1,7 @@
+/* Link */
+.link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+}

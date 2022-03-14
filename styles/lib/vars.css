@@ -10,21 +10,27 @@
   --secondary-2: #ef8e85;
 
   /* Typography */
-  --font-size-h1: 44px;
+  --title-font-family: 'Tiempos', serif;
+  --body-font-family: 'Open Sans', sans-serif;
+  --font-size-h1: 46px;
   --font-size-h2: 40px;
   --font-size-body: 20px;
 
-  --line-height-h1: 60px;
-  --line-height-h2: 50px;
-  --line-height-body: 26px;
+  --line-height-h1: 64px;
+  --line-height-h2: 56px;
+  --line-height-body: 32px;
+
+  --font-family-h1: var(--title-font-family);
+  --font-family-h2: var(--title-font-family);
 
   /* ELEMENTS */
   /* BUTTON */
   /* Button default */
-  --btn-default-vertical-padding: 15px;
+  --btn-default-vertical-padding: 12px;
   --btn-default-horizontal-padding: 24px;
   --btn-default-font-size: var(--font-size-body);
-  --btn-default-line-height: var(--line-height-body);
+  --btn-default-line-height: 28px;
+  --btn-default-font-family: var(--body-font-family);
   --btn-default-font-weight: 700;
 
   /* Button wide */
